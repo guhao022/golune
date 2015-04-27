@@ -3,14 +3,14 @@ package models
 import "gopkg.in/mgo.v2/bson"
 
 type Admin struct {
-	Id       bson.ObjectId `json:"id" bson:"_id"`
-	Userame  string        `json:"username"`
-	Password int           `json:"password"`
+	Id       bson.ObjectId `json:"id" bson:"_id,omitempty"`
+	Userame  string        `json:"" bson:",omitempty"`
+	Password string        `json:"password"`
 }
 
 type Blog struct {
-	Id              bson.ObjectId `json:"id" bson:"_id"`
-	Title           string        `json:"title"`
+	Id              bson.ObjectId `json:"id" bson:"_id,omitempty"`
+	Title           string        `json:"title" bson:",omitempty"`
 	Content         string        `json:"title"`
 	AuthorId        bson.ObjectId `json:"author"`
 	Status          int           `json:"status"`
@@ -26,13 +26,13 @@ type Blog struct {
 }
 
 type Tag struct {
-	Id   bson.ObjectId `json:"id" bson:"_id"`
-	Name string        `json:"name"`
+	Id   bson.ObjectId `json:"id" bson:"_id,omitempty"`
+	Name string        `json:"name" bson:",omitempty"`
 	Num  int           `json:"num"`
 }
 
 type BlogTag struct {
-	Id     bson.ObjectId `json:"id" bson:"_id"`
+	Id     bson.ObjectId `json:"id" bson:"_id,omitempty"`
 	BlogId bson.ObjectId `json:"blog"`
 	TagId  bson.ObjectId `json:"tag"`
 }

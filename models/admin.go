@@ -1,12 +1,15 @@
 package models
 
 import (
-	"golune/utils/mgo"
-	"gopkg.in/mgo.v2/bson"
+	"golune/mgo"
 )
 
 func AddAdmin(m *Admin) (err error) {
 	db := mgo.NewDB("admin")
 	err = db.Insert(m)
 	return
+}
+
+func FindByName(username string) {
+	//
 }

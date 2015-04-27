@@ -1,9 +1,14 @@
-package utils
+package controllers
 
 import (
 	"crypto/md5"
 	"encoding/hex"
+	"github.com/astaxie/beego"
 )
+
+type BaseController struct {
+	beego.Controller
+}
 
 func Md5WithSalt(str, salt string) (enStr string) {
 	h := md5.New()
