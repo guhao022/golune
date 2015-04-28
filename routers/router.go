@@ -6,5 +6,5 @@ import (
 )
 
 func init() {
-	beego.Router("/admin", &controllers.AdminController{}, "get:Add")
+	beego.Router("/admin/add", &controllers.AdminController{}, "get:Add")
 }
