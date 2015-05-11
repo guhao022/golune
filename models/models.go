@@ -2,37 +2,38 @@ package models
 
 import "gopkg.in/mgo.v2/bson"
 
-type Admin struct {
-	Id       bson.ObjectId `json:"id" bson:"_id,omitempty"`
-	Userame  string        `json:"" bson:",omitempty"`
-	Password string        `json:"password"`
+type Model struct {
 }
-
-type Blog struct {
-	Id              bson.ObjectId `json:"id" bson:"_id,omitempty"`
-	Title           string        `json:"title" bson:",omitempty"`
-	Content         string        `json:"title"`
-	AuthorId        bson.ObjectId `json:"author"`
-	Status          int           `json:"status"`
-	CateId          bson.ObjectId `json:"cate"`
-	Hot             int           `json:"hot"`
-	Ip              string        `json:"ip"`
-	MateTitle       string        `json:"mate_title`
-	MateKeyword     string        `json:"mate_keyword"`
-	MateDescription string        `json:"mate_description"`
-	CreatedAt       int           `json:"created_at"`
-	UpdatedAt       int           `json:"updated_at"`
-	DeletedAt       int           `json:"deleted_at"`
-}
-
-type Tag struct {
-	Id   bson.ObjectId `json:"id" bson:"_id,omitempty"`
-	Name string        `json:"name" bson:",omitempty"`
-	Num  int           `json:"num"`
-}
-
-type BlogTag struct {
-	Id     bson.ObjectId `json:"id" bson:"_id,omitempty"`
-	BlogId bson.ObjectId `json:"blog"`
-	TagId  bson.ObjectId `json:"tag"`
-}
+type (
+	Admin struct {
+		Id       bson.ObjectId `bson:"_id,omitempty"`
+		Username string        `bson:"username,omitempty"`
+		Password string        `bson:"password"`
+	}
+	Blog struct {
+		Id              bson.ObjectId `bson:"_id,omitempty"`
+		Title           string        `bson:"title"`
+		Content         string        `bson:"content"`
+		Author          string        `bson:"author"`
+		Status          int           `bson:"status"`
+		Category        string        `bson:"cate"`
+		Hot             int           `bson:"hot"`
+		Ip              string        `bson:"ip"`
+		MateTitle       string        `bson:"mate_title`
+		MateKeyword     string        `bson:"mate_keyword"`
+		MateDescription string        `bson:"mate_description"`
+		CreatedAt       int           `bson:"created_at"`
+		UpdatedAt       int           `bson:"updated_at"`
+		DeletedAt       int           `bson:"deleted_at"`
+	}
+	Tag struct {
+		Id   bson.ObjectId `bson:"_id,omitempty"`
+		Name string        `bson:"name,omitempty"`
+		Num  int           `bson:"num"`
+	}
+	BlogTag struct {
+		Id     bson.ObjectId `bson:"_id,omitempty"`
+		BlogId bson.ObjectId `bson:"blog"`
+		TagId  bson.ObjectId `bson:"tag"`
+	}
+)
