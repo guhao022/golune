@@ -22,5 +22,6 @@ func init() {
 		)
 
 	beego.AddNamespace(ns)
+
 	//beego.Router("/api", &apis.AdminHandler{}, "get,post:AddAdmin")
 }
