@@ -64,7 +64,7 @@ func (c *CreateHandler) CreateBlog() {
 		blog.Id = bson.NewObjectId()
 		blog.Htmltag = string(utils.RandomCreateBytes(12))
 		blog.Title = title
-		blog.Category = strings.TrimRight(category, ",")
+		blog.Category = category
 		blog.MateTitle = mateTitle
 		blog.MateKeyword = mateKeywords
 		blog.MateDescription = mateDescription
@@ -91,7 +91,7 @@ func (c *CreateHandler) CreateBlog() {
 	c.ServeJson()
 }
 
-func (c *CreateHandler) CreateTags(tags string, blogId bson.ObjectId) {
+func (c *BaseHandler) CreateTags(tags string, blogId bson.ObjectId) {
 	mgo, err := models.NewDB()
 	if err != nil {
 		c.CustomAbort(500, fmt.Sprintln(err))

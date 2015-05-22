@@ -75,3 +75,19 @@ func (mgo *Mgo) FindAllBlog() (m []Blog, err error) {
 	err = query.All(&m)
 	return
 }
+
+//更新博客访问量
+func (mgo *Mgo) UpdateBlogAccess(id string) (err error) {
+	var m *Blog
+	c := mgo.session.DB(BlogDB).C(BlogC)
+	err = c.Find(bson.M{"_id": id}).One(&m)
+	err = c.Update(bson.M{"_id": id}, bson.M{"$set": bson.M{"hot": m.Hot + 1}})
+	return
+}
+
+//博客更新
+func (mgo *Mgo) UpdateBlog(m *Blog) (err error) {
+	c := mgo.session.DB(BlogDB).C(BlogC)
+	err = c.Update(bson.M{"_id": m.Id.Hex()}, bson.M{"$set": m})
+	return
+}

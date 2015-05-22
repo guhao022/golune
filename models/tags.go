@@ -47,7 +47,7 @@ func (mgo *Mgo) FindBlogTagByBlog(blogId bson.ObjectId) (tag []Tag, err error) {
 }
 
 //根据blog删除blogtag
-func (mgo *Mgo) DelBlogTagByBlog(blogId bson.ObjectId) (err error) {
+func (mgo *Mgo) DelBlogTagByBlog(blogId string) (err error) {
 	c := mgo.session.DB(BlogDB).C(BlogTagC)
 	_, err = c.RemoveAll(bson.M{"blog": blogId})
 	return
