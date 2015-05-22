@@ -13,7 +13,6 @@ func (mgo *Mgo) AddAdmin(m *Admin) (err error) {
 
 //根据用户名查找用户信息
 func (mgo *Mgo) FindAdminByName(username string) (m *Admin, err error) {
-	//var m Admin
 	c := mgo.session.DB(BlogDB).C(AdminC)
 	err = c.Find(bson.M{"username": username}).One(&m)
 	return m, err
