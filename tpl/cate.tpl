@@ -6,8 +6,8 @@
     <meta name="author" content="SkyArrow">
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
     <meta property="og:site_name" content="Light"/>
-    <link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css" media="screen" type="text/css">
 </head>
 <body>
 <header id="header" class="inner"><div class="alignleft">
@@ -92,19 +92,19 @@
             <ul class="entry cate">
                 <li>
                     <i class="nfa fa fa-rocket"></i>
-                    <a href="/blog/technology">
+                    <a href="/blog/cate/technology">
                         技术
                     </a>
                 </li>
                 <li>
                     <i class="nfa fa fa-bus"></i>
-                    <a href="/blog/life">
+                    <a href="/blog/cate/life">
                         生活
                     </a>
                 </li>
                 <li>
                     <i class="nfa fa fa-leaf"></i>
-                    <a href="/blog/talk">
+                    <a href="/blog/cate/talk">
                         杂谈
                     </a>
                 </li>
@@ -129,8 +129,8 @@
     </div>
 </footer>
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-<script src="/js/jquery.simplePagination.js"></script>
-<link type="text/css" rel="stylesheet" href="/css/simplePagination.css"/>
+<script src="/assets/js/jquery.simplePagination.js"></script>
+<link type="text/css" rel="stylesheet" href="/assets/css/simplePagination.css"/>
 <script type="text/javascript">
     var page_index;
     var itemsOnPage = 30;

@@ -522,3 +522,4 @@
 2015/05/22 01:29:34 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 7.0068ms         | match      | /api/blog/cache/archive                  | 
 2015/05/22 01:30:23 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 9.0083ms         | match      | /api/blog/cache/archive                  | 
 2015/05/22 01:32:11 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.0023ms         | match      | /api/blog/cache/tags                     | 
+2015/05/22 09:25:41 [app.go:103] [I] http server Running on :9900

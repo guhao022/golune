@@ -76,19 +76,19 @@
             <ul class="entry cate">
                 <li>
                     <i class="nfa fa fa-rocket"></i>
-                    <a href="/blog/technology">
+                    <a href="/blog/cate/technology">
                         技术
                     </a>
                 </li>
                 <li>
                     <i class="nfa fa fa-bus"></i>
-                    <a href="/blog/life">
+                    <a href="/blog/cate/life">
                         生活
                     </a>
                 </li>
                 <li>
                     <i class="nfa fa fa-leaf"></i>
-                    <a href="/blog/talk">
+                    <a href="/blog/cate/talk">
                         杂谈
                     </a>
                 </li>
