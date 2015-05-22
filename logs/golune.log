@@ -1,0 +1,524 @@
+2015/05/21 00:02:28 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 9.006ms          | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:04:22 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 6.0144ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:08:06 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 7.0057ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:08:21 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.1045ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:09:56 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 11.0268ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:10:09 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 10.0218ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:18:38 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:18:38 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:18:38 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:18:38 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:18:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:18:38 [app.go:103] [I] http server Running on :9900
+2015/05/21 00:19:37 [app.go:103] [I] http server Running on :9900
+2015/05/21 00:20:31 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 13.0004ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:21:09 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 9.0957ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:21:26 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 9.0077ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:26:31 [app.go:103] [I] http server Running on :9900
+2015/05/21 00:28:27 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:28:27 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:28:27 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:28:27 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:28:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:28:33 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:28:33 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:28:33 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:28:33 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:28:33 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:29:24 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:29:24 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:29:24 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:29:24 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:29:24 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:29:53 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:29:53 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:29:53 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:29:53 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:29:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:29:56 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:29:56 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:29:56 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:29:56 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:29:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:30:24 [app.go:103] [I] http server Running on :9900
+2015/05/21 00:30:28 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:30:28 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:30:28 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:30:28 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:30:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:30:31 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:30:31 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:30:31 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:30:31 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:30:31 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:30:59 [router.go:871] [C] the request url is  /api/blog/cache/cate 
+2015/05/21 00:30:59 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 00:30:59 [router.go:878] [C] E:/go/src/golune/apis/out.go:127 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 00:30:59 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 00:30:59 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 00:32:34 [app.go:103] [I] http server Running on :9900
+2015/05/21 00:32:34 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 14.0224ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:36:53 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 12.0113ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:39:58 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 12.1631ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:42:31 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.0074ms         | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:54:14 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 13.0244ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:57:15 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 10.0217ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 00:58:43 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 11.0223ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 01:00:53 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 12.0232ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 01:01:19 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 11.0206ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 01:01:32 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 11.0112ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 01:13:20 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 5.0051ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:17:10 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:17:49 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:18:46 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:19:21 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:20:31 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:22:21 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:23:09 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:24:30 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:25:16 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:26:37 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:26:41 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 37.7769ms        | match      | /api/blog/create/blog                    | 
+2015/05/21 01:26:59 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 16.0487ms        | match      | /api/blog/create/blog                    | 
+2015/05/21 01:27:43 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.9912ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:27:59 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 3.0024ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:28:12 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.0018ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:28:16 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.0018ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:28:19 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 4.0044ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:28:24 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.0021ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 01:28:31 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 11.0083ms        | match      | /api/blog/cache/cate                     | 
+2015/05/21 01:52:42 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:52:56 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 7.0082ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 01:54:13 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:56:11 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:56:40 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:56:49 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0059ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 01:57:25 [app.go:103] [I] http server Running on :9900
+2015/05/21 01:57:31 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 5.0047ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:03:23 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0173ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:05:49 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 7.0188ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:06:23 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 7.0185ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:12:16 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 7.0261ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:13:40 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0062ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:14:19 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0168ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:16:14 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0179ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:17:35 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0044ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:19:06 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 16.0145ms        | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:24:10 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0053ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:26:08 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 5.005ms          | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:47:44 [app.go:103] [I] http server Running on :9900
+2015/05/21 02:47:46 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 9.0191ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:49:11 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 9.0209ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:50:51 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 8.0196ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:54:44 [app.go:103] [I] http server Running on :9900
+2015/05/21 02:54:48 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:54:48 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:54:48 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:54:48 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:54:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:55:10 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:55:10 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:55:10 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:55:10 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:55:10 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:55:12 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:55:12 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:55:12 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:55:12 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:55:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:55:54 [app.go:103] [I] http server Running on :9900
+2015/05/21 02:56:02 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:56:02 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:56:02 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:56:02 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:56:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:56:27 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:56:27 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:56:27 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:56:27 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:56:39 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:56:39 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:56:39 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:56:39 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:56:39 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:56:56 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 7.0519ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 02:57:08 [router.go:871] [C] the request url is  /api/blog/cache/tags 
+2015/05/21 02:57:08 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/21 02:57:08 [router.go:878] [C] E:/go/src/golune/apis/out.go:170 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 02:57:08 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 02:57:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 02:58:45 [app.go:103] [I] http server Running on :9900
+2015/05/21 10:43:56 [app.go:103] [I] http server Running on :9900
+2015/05/21 10:51:00 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 16.9897ms        | match      | /api/blog/cache/tags                     | 
+2015/05/21 10:53:39 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0109ms        | match      | /api/blog/cache/index                    | 
+2015/05/21 10:53:51 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0221ms        | match      | /api/blog/cache/index                    | 
+2015/05/21 10:54:03 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0247ms        | match      | /api/blog/cache/index                    | 
+2015/05/21 10:54:37 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.008ms          | match      | /api/blog/cache/index                    | 
+2015/05/21 10:55:17 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.0147ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 10:55:36 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.003ms          | match      | /api/blog/cache/tags                     | 
+2015/05/21 10:57:21 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 205.1806ms       | match      | /api/blog/cache/blog                     | 
+2015/05/21 10:58:46 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 30.0662ms        | match      | /api/blog/cache/blog                     | 
+2015/05/21 10:59:34 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 17.0262ms        | match      | /api/blog/cache/blog                     | 
+2015/05/21 11:22:17 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 5.0059ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:23:20 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0156ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:23:57 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0039ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:25:08 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0036ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:25:31 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.017ms          | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:25:46 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0032ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:26:06 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 5.0042ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:26:19 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.9936ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:26:28 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0162ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:26:38 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.0141ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:26:56 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 4.0038ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:30:04 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 6.0056ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:30:17 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 5.0143ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:33:33 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.0032ms         | match      | /api/blog/cache/tags                     | 
+2015/05/21 11:39:40 [app.go:103] [I] http server Running on :9900
+2015/05/21 11:39:47 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0071ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 11:41:12 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 6.9954ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 11:41:12 [app.go:103] [I] http server Running on :9900
+2015/05/21 11:41:16 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 7.0065ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 11:44:20 [app.go:103] [I] http server Running on :9900
+2015/05/21 21:24:00 [app.go:103] [I] http server Running on :9900
+2015/05/21 21:27:24 [app.go:103] [I] http server Running on :9900
+2015/05/21 21:36:34 [app.go:103] [I] http server Running on :9900
+2015/05/21 21:43:21 [app.go:103] [I] http server Running on :9900
+2015/05/21 21:50:13 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:05:03 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 6.0062ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 22:05:21 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 425.4084ms       | match      | /api/blog/create/blog                    | 
+2015/05/21 22:05:34 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.0026ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 22:05:37 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 3.003ms          | match      | /api/blog/create/blog                    | 
+2015/05/21 22:05:39 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 4.0041ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 22:05:44 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 5.0083ms         | match      | /api/blog/create/blog                    | 
+2015/05/21 22:09:14 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:12:55 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 6.0056ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 22:19:09 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:37:02 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:57:56 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:58:01 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 9.0091ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 22:58:04 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 30.0433ms        | match      | /api/blog/cache/archive                  | 
+2015/05/21 22:58:18 [app.go:103] [I] http server Running on :9900
+2015/05/21 22:58:20 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 0                | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:23:33 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:23:38 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 0                | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:24:05 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 0                | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:24:06 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:24:12 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 0                | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:24:32 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:24:36 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 0                | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:25:09 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:26:15 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:27:52 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:27:55 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 3.0026ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:28:04 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:28:07 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 3.0029ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:31:11 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:31:15 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 3.0135ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:34:49 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:34:53 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/21 23:34:53 [router.go:872] [C] Handler crashed with error runtime error: index out of range 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/runtime/panic.go:12 
+2015/05/21 23:34:53 [router.go:878] [C] E:/go/src/golune/apis/out.go:203 
+2015/05/21 23:34:53 [router.go:878] [C] E:/go/src/golune/apis/out.go:177 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 23:34:53 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 23:34:53 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 23:36:32 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:36:37 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/21 23:36:37 [router.go:872] [C] Handler crashed with error runtime error: index out of range 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/runtime/panic.go:12 
+2015/05/21 23:36:37 [router.go:878] [C] E:/go/src/golune/apis/out.go:203 
+2015/05/21 23:36:37 [router.go:878] [C] E:/go/src/golune/apis/out.go:177 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 23:36:37 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 23:36:37 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 23:40:00 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:40:05 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/21 23:40:05 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/21 23:40:05 [router.go:878] [C] E:/go/src/golune/apis/out.go:203 
+2015/05/21 23:40:05 [router.go:878] [C] E:/go/src/golune/apis/out.go:177 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 23:40:05 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 23:40:05 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 23:41:44 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:41:48 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 4.0033ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:44:17 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:44:20 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/21 23:44:20 [router.go:872] [C] Handler crashed with error runtime error: index out of range 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/runtime/panic.go:12 
+2015/05/21 23:44:20 [router.go:878] [C] E:/go/src/golune/apis/out.go:203 
+2015/05/21 23:44:20 [router.go:878] [C] E:/go/src/golune/apis/out.go:177 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/21 23:44:20 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/21 23:44:20 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/21 23:51:35 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:51:36 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:51:42 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0077ms         | match      | /api/blog/cache/archive                  | 
+2015/05/21 23:52:50 [app.go:103] [I] http server Running on :9900
+2015/05/21 23:52:56 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0079ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:02:12 [app.go:103] [I] http server Running on :9900
+2015/05/22 00:02:15 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0068ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:14:35 [app.go:103] [I] http server Running on :9900
+2015/05/22 00:15:42 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 36.0436ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:18:29 [app.go:103] [I] http server Running on :9900
+2015/05/22 00:18:32 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 10.0133ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:20:48 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 10.0215ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:21:13 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0066ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:36:07 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 11.0019ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:42:19 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 11.0103ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:43:45 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 12.0112ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:46:04 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 11.9975ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:49:58 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0068ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:50:42 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 10.9981ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:54:16 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 11.0101ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:55:16 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 10.0098ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:55:37 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 10.0218ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 00:57:39 [app.go:103] [I] http server Running on :9900
+2015/05/22 00:58:53 [app.go:103] [I] http server Running on :9900
+2015/05/22 00:58:58 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/22 00:58:58 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/22 00:58:58 [router.go:878] [C] E:/go/src/golune/apis/out.go:200 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/22 00:58:58 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/22 00:58:58 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/22 01:01:15 [router.go:871] [C] the request url is  /api/blog/cache/archive 
+2015/05/22 01:01:15 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/22 01:01:15 [router.go:878] [C] E:/go/src/golune/apis/out.go:200 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/22 01:01:15 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/22 01:01:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/22 01:01:16 [app.go:103] [I] http server Running on :9900
+2015/05/22 01:01:28 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 9.9971ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:02:42 [app.go:103] [I] http server Running on :9900
+2015/05/22 01:02:44 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 12.0103ms        | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:15:50 [app.go:103] [I] http server Running on :9900
+2015/05/22 01:18:25 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 11.01ms          | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:18:48 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 9.0085ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:19:00 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0071ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:20:20 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0062ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:29:08 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 8.0079ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:29:34 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 7.0068ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:30:23 [router.go:845] [D] | GET        | /api/blog/cache/archive                  | 9.0083ms         | match      | /api/blog/cache/archive                  | 
+2015/05/22 01:32:11 [router.go:845] [D] | GET        | /api/blog/cache/tags                     | 3.0023ms         | match      | /api/blog/cache/tags                     | 

@@ -1,0 +1,1357 @@
+2015/05/15 10:32:31 [app.go:103] [I] http server Running on :9900
+2015/05/15 10:44:43 [app.go:103] [I] http server Running on :9900
+2015/05/15 10:45:05 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 19.9965ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 10:48:58 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 26.0573ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 10:58:11 [app.go:103] [I] http server Running on :9900
+2015/05/15 10:58:32 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 23.9981ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:00:28 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 27.0009ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:02:52 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:02:56 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/15 11:02:56 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/html/template/template.go:99 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/html/template/template.go:88 
+2015/05/15 11:02:56 [router.go:878] [C] E:/go/src/golune/apis/out.go:53 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/15 11:02:56 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/15 11:02:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/15 11:07:24 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:07:24 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 20.0019ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:14:24 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:14:43 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:15:14 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:16:10 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:17:47 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:17:56 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:18:00 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 16.0004ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:18:30 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:18:37 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 26.004ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:20:54 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:21:02 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 21.0027ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:21:39 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:21:56 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 37.0006ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:21:57 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 7.9533ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:22:33 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:22:36 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 26.0021ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:22:41 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 9.0029ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:23:33 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:23:39 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 22.0504ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 999.8µs          | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 1.0003ms         | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 0                | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 998.8µs          | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 999.8µs          | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 998.8µs          | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 1.0003ms         | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 1.0008ms         | notmatch   | 
+2015/05/15 11:34:58 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 2.0523ms         | notmatch   | 
+2015/05/15 11:35:09 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 1.0022ms         | notmatch   | 
+2015/05/15 11:35:09 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 0                | notmatch   | 
+2015/05/15 11:36:16 [app.go:103] [I] http server Running on :9900
+2015/05/15 11:36:19 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 29.0019ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:19 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 14.9996ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:37 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 9.9992ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:37 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 11.0005ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:50 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 49.0019ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:50 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 32.0012ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:50 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 23.0012ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:52 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 35.0015ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:52 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 490.2436ms       | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:52 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 478.2419ms       | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:52 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 475.2436ms       | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:56 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 13.0016ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:56 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 22.9988ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:56 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 20.9993ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:56 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 28.0026ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:36:56 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 27.0014ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:38:09 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 12.0047ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:38:14 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 5.0009ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:38:14 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 10.0017ms        | match      | /api/blog/cache/html                     | 
+2015/05/15 11:38:35 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 9.9963ms         | match      | /api/blog/cache/html                     | 
+2015/05/15 11:38:37 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 7.9997ms         | match      | /api/blog/cache/html                     | 
+2015/05/16 02:31:58 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:32:07 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 3.0042ms         | notmatch   | 
+2015/05/16 02:35:38 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:35:43 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:35:43 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:35:43 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:35:43 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:35:43 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:36:56 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:36:56 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:36:56 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:36:56 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:36:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:37:24 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:38:04 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:38:17 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:38:17 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:38:17 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:38:17 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:38:17 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:38:48 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:38:51 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:38:51 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:38:51 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:38:51 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:38:51 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:41:17 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:41:52 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:42:22 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:45:05 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:45:08 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:45:08 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:45:08 [router.go:878] [C] E:/go/src/golune/apis/out.go:61 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:45:08 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:45:08 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:45:44 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:46:25 [app.go:103] [I] http server Running on :9900
+2015/05/16 02:47:12 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 02:47:12 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 02:47:12 [router.go:878] [C] E:/go/src/golune/apis/out.go:61 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 02:47:12 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 02:47:12 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 02:54:40 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:01:17 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:01:45 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 03:01:45 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 03:01:45 [router.go:878] [C] E:/go/src/golune/apis/out.go:61 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 03:01:45 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 03:01:45 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 03:02:50 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:02:54 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 03:02:54 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 03:02:54 [router.go:878] [C] E:/go/src/golune/apis/out.go:61 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 03:02:54 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 03:02:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 03:03:41 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:03:48 [router.go:871] [C] the request url is  /api/blog/cache/html 
+2015/05/16 03:03:48 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/16 03:03:48 [router.go:878] [C] E:/go/src/golune/apis/out.go:61 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/16 03:03:48 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/16 03:03:48 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/16 03:04:35 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:07:58 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:10:27 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:10:34 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:10:56 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 999.8µs          | match      | /api/blog/cache/html                     | 
+2015/05/16 03:11:44 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:11:47 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 101.004ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 03:12:29 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:12:32 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 109.0071ms       | match      | /api/blog/cache/html                     | 
+2015/05/16 03:14:01 [app.go:103] [I] http server Running on :9900
+2015/05/16 03:14:05 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 50.0011ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 09:00:57 [app.go:103] [I] http server Running on :9900
+2015/05/16 09:37:35 [app.go:103] [I] http server Running on :9900
+2015/05/16 09:52:22 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:04:41 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:07:38 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:08:35 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:09:22 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:09:41 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:13:19 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:27:16 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:29:21 [app.go:103] [I] http server Running on :9900
+2015/05/16 11:35:08 [app.go:103] [I] http server Running on :9900
+2015/05/16 12:50:47 [app.go:103] [I] http server Running on :9900
+2015/05/16 12:55:11 [app.go:103] [I] http server Running on :9900
+2015/05/16 13:14:46 [app.go:103] [I] http server Running on :9900
+2015/05/16 13:43:14 [app.go:103] [I] http server Running on :9900
+2015/05/16 13:52:17 [app.go:103] [I] http server Running on :9900
+2015/05/16 13:56:45 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:08:28 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:08:30 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 4.0001ms         | notmatch   | 
+2015/05/16 14:13:44 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:14:04 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 17.0001ms        | match      | /api/blog/read/blog                      | 
+2015/05/16 14:46:47 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:46:59 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:47:45 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:47:51 [app.go:103] [I] http server Running on :9900
+2015/05/16 14:48:12 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 21.0012ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 14:48:49 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 10.9882ms        | match      | /api/blog/create/blog                    | 
+2015/05/16 14:48:58 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 14.0008ms        | match      | /api/blog/create/blog                    | 
+2015/05/16 14:49:03 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 43.9506ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 15:47:44 [app.go:103] [I] http server Running on :9900
+2015/05/16 15:55:01 [app.go:103] [I] http server Running on :9900
+2015/05/16 15:55:31 [app.go:103] [I] http server Running on :9900
+2015/05/16 15:56:46 [app.go:103] [I] http server Running on :9900
+2015/05/16 15:57:35 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 27.9498ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 15:58:02 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 24.004ms         | match      | /api/blog/cache/html                     | 
+2015/05/16 15:58:16 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 13.9988ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 15:59:49 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:02:57 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:03:01 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 535.5231ms       | match      | /api/blog/cache/html                     | 
+2015/05/16 16:04:21 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:09:46 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:11:26 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:11:29 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:13:39 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:14:04 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 33ms             | match      | /api/blog/cache/html                     | 
+2015/05/16 16:15:13 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:18:58 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:19:01 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 33.9988ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 16:19:31 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 19.0021ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 16:19:33 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 12.0018ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 16:19:34 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 19.996ms         | match      | /api/blog/cache/html                     | 
+2015/05/16 16:23:21 [app.go:103] [I] http server Running on :9900
+2015/05/16 16:23:23 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 35.0015ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 16:23:25 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 20.0004ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 16:23:25 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 21.9926ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 17:13:18 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:26:41 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:27:45 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:31:24 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:38:30 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:38:36 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 75.0064ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 17:44:54 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:45:16 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 66.0064ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 17:45:50 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:45:59 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 51.0014ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 17:46:47 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:57:34 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:57:46 [app.go:103] [I] http server Running on :9900
+2015/05/16 17:58:54 [app.go:103] [I] http server Running on :9900
+2015/05/16 18:01:24 [app.go:103] [I] http server Running on :9900
+2015/05/16 18:24:28 [app.go:103] [I] http server Running on :9900
+2015/05/16 18:45:54 [app.go:103] [I] http server Running on :9900
+2015/05/16 18:58:05 [app.go:103] [I] http server Running on :9900
+2015/05/16 18:58:39 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 60.0028ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:03:15 [app.go:103] [I] http server Running on :9900
+2015/05/16 19:16:13 [app.go:103] [I] http server Running on :9900
+2015/05/16 19:16:20 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 56.0027ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:16:32 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 26.9548ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:22:51 [app.go:103] [I] http server Running on :9900
+2015/05/16 19:23:57 [app.go:103] [I] http server Running on :9900
+2015/05/16 19:29:14 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 52.0012ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:30:10 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 56.9717ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:41:11 [app.go:103] [I] http server Running on :9900
+2015/05/16 19:41:14 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 48.0016ms        | match      | /api/blog/cache/html                     | 
+2015/05/16 19:43:46 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 53.001ms         | match      | /api/blog/cache/html                     | 
+2015/05/16 20:03:06 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 61.9896ms        | match      | /api/blog/cache/html                     | 
+2015/05/19 02:36:18 [app.go:103] [I] http server Running on :9900
+2015/05/19 02:40:39 [app.go:103] [I] http server Running on :9900
+2015/05/19 09:57:04 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:01:02 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:02:55 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:09:36 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 291.28ms         | match      | /api/blog/cache/html                     | 
+2015/05/19 10:12:40 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 448.4482ms       | match      | /api/blog/create/blog                    | 
+2015/05/19 10:17:31 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 54.0965ms        | match      | /api/blog/cache/html                     | 
+2015/05/19 10:23:34 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:23:56 [router.go:845] [D] | GET        | /                                        | 1.0012ms         | notmatch   | 
+2015/05/19 10:24:31 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 4.0033ms         | match      | /api/blog/cache/index                    | 
+2015/05/19 10:25:13 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:25:13 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0089ms         | match      | /api/blog/cache/index                    | 
+2015/05/19 10:27:31 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 119.0987ms       | match      | /api/blog/create/blog                    | 
+2015/05/19 10:50:06 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:51:19 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:51:30 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 5.0041ms         | match      | /api/blog/cache/index                    | 
+2015/05/19 10:53:33 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:53:36 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 5.0164ms         | match      | /api/blog/cache/index                    | 
+2015/05/19 10:53:38 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0109ms        | match      | /api/blog/cache/index                    | 
+2015/05/19 10:54:43 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:54:46 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 4.0191ms         | match      | /api/blog/cache/index                    | 
+2015/05/19 10:55:27 [app.go:103] [I] http server Running on :9900
+2015/05/19 10:55:28 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 21.0204ms        | match      | /api/blog/cache/index                    | 
+2015/05/19 11:01:32 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:01:35 [router.go:845] [D] | POST       | /api/blog/cache/html                     | 12.0238ms        | match      | /api/blog/cache/html                     | 
+2015/05/19 11:14:44 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:34:04 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:34:21 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:39:21 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:55:49 [app.go:103] [I] http server Running on :9900
+2015/05/19 11:59:11 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:07:35 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:10:44 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:10:55 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 29.0276ms        | match      | /api/blog/create/blog                    | 
+2015/05/19 12:11:59 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 3.003ms          | match      | /api/blog/create/blog                    | 
+2015/05/19 12:12:32 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 3.9971ms         | match      | /api/blog/create/blog                    | 
+2015/05/19 12:13:10 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:13:51 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:15:26 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:16:05 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:16:49 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:18:23 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:24:46 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:25:24 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:26:46 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:30:15 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:30:44 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:31:35 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:32:01 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:32:37 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:33:11 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:34:10 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:35:14 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:35:39 [app.go:103] [I] http server Running on :9900
+2015/05/19 12:35:44 [app.go:103] [I] http server Running on :9900
+2015/05/19 21:23:48 [app.go:103] [I] http server Running on :9900
+2015/05/19 21:24:59 [app.go:103] [I] http server Running on :9900
+2015/05/19 21:55:52 [app.go:103] [I] http server Running on :9900
+2015/05/19 21:56:27 [router.go:871] [C] the request url is  /api 
+2015/05/19 21:56:27 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/19 21:56:27 [router.go:878] [C] E:/go/src/golune/apis/out.go:99 
+2015/05/19 21:56:27 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/19 21:56:27 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/19 21:56:27 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/19 21:57:08 [app.go:103] [I] http server Running on :9900
+2015/05/19 21:57:15 [router.go:871] [C] the request url is  /api 
+2015/05/19 21:57:15 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/19 21:57:15 [router.go:878] [C] E:/go/src/golune/apis/out.go:99 
+2015/05/19 21:57:15 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/19 21:57:15 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/19 21:57:15 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/19 22:00:00 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:00:09 [router.go:845] [D] | GET        | /api                                     | 7.9977ms         | match      | /api                                     | 
+2015/05/19 22:01:07 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:01:12 [router.go:845] [D] | GET        | /api                                     | 4.9933ms         | match      | /api                                     | 
+2015/05/19 22:01:26 [router.go:845] [D] | GET        | /api                                     | 6.006ms          | match      | /api                                     | 
+2015/05/19 22:01:29 [router.go:845] [D] | GET        | /api                                     | 4.0045ms         | match      | /api                                     | 
+2015/05/19 22:01:30 [router.go:845] [D] | GET        | /api                                     | 5.0164ms         | match      | /api                                     | 
+2015/05/19 22:01:31 [router.go:845] [D] | GET        | /api                                     | 4.0039ms         | match      | /api                                     | 
+2015/05/19 22:01:59 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:02:01 [router.go:845] [D] | GET        | /api                                     | 7.0074ms         | match      | /api                                     | 
+2015/05/19 22:02:09 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:02:11 [router.go:845] [D] | GET        | /api                                     | 21.0143ms        | match      | /api                                     | 
+2015/05/19 22:02:11 [router.go:845] [D] | GET        | /api                                     | 20.0315ms        | match      | /api                                     | 
+2015/05/19 22:02:11 [router.go:845] [D] | GET        | /api                                     | 15.0063ms        | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 3.003ms          | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 14.0391ms        | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 8.0106ms         | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 14.0388ms        | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 11.9893ms        | match      | /api                                     | 
+2015/05/19 22:02:12 [router.go:845] [D] | GET        | /api                                     | 5.0062ms         | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 15.0139ms        | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 3.0018ms         | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 14.0141ms        | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 3.9912ms         | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 13.0133ms        | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 13.1086ms        | match      | /api                                     | 
+2015/05/19 22:02:13 [router.go:845] [D] | GET        | /api                                     | 4.9895ms         | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 11.0124ms        | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 8.9904ms         | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 14.9885ms        | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 15.0406ms        | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 8.0197ms         | match      | /api                                     | 
+2015/05/19 22:02:14 [router.go:845] [D] | GET        | /api                                     | 8.0735ms         | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 9.0086ms         | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 16.0171ms        | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 2.9915ms         | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 13.0379ms        | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 16.0198ms        | match      | /api                                     | 
+2015/05/19 22:02:15 [router.go:845] [D] | GET        | /api                                     | 14.0394ms        | match      | /api                                     | 
+2015/05/19 22:02:16 [router.go:845] [D] | GET        | /api                                     | 6.0053ms         | match      | /api                                     | 
+2015/05/19 22:02:16 [router.go:845] [D] | GET        | /api                                     | 15.0399ms        | match      | /api                                     | 
+2015/05/19 22:02:16 [router.go:845] [D] | GET        | /api                                     | 15.0145ms        | match      | /api                                     | 
+2015/05/19 22:02:16 [router.go:845] [D] | GET        | /api                                     | 7.0059ms         | match      | /api                                     | 
+2015/05/19 22:02:16 [router.go:845] [D] | GET        | /api                                     | 3.0027ms         | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 14.0906ms        | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 1.9924ms         | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 16.0145ms        | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 14.0391ms        | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 9.0083ms         | match      | /api                                     | 
+2015/05/19 22:02:17 [router.go:845] [D] | GET        | /api                                     | 16.0154ms        | match      | /api                                     | 
+2015/05/19 22:02:18 [router.go:845] [D] | GET        | /api                                     | 9.0109ms         | match      | /api                                     | 
+2015/05/19 22:02:18 [router.go:845] [D] | GET        | /api                                     | 16.0411ms        | match      | /api                                     | 
+2015/05/19 22:02:18 [router.go:845] [D] | GET        | /api                                     | 13.0124ms        | match      | /api                                     | 
+2015/05/19 22:02:18 [router.go:845] [D] | GET        | /api                                     | 13.0121ms        | match      | /api                                     | 
+2015/05/19 22:02:19 [router.go:845] [D] | GET        | /api                                     | 12.011ms         | match      | /api                                     | 
+2015/05/19 22:02:19 [router.go:845] [D] | GET        | /api                                     | 14.039ms         | match      | /api                                     | 
+2015/05/19 22:02:19 [router.go:845] [D] | GET        | /api                                     | 16.0154ms        | match      | /api                                     | 
+2015/05/19 22:02:19 [router.go:845] [D] | GET        | /api                                     | 12.0112ms        | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 16.0409ms        | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 9.0088ms         | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 15.0139ms        | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 8.0156ms         | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 13.0332ms        | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 13.0347ms        | match      | /api                                     | 
+2015/05/19 22:02:20 [router.go:845] [D] | GET        | /api                                     | 7.0089ms         | match      | /api                                     | 
+2015/05/19 22:02:21 [router.go:845] [D] | GET        | /api                                     | 16.04ms          | match      | /api                                     | 
+2015/05/19 22:02:21 [router.go:845] [D] | GET        | /api                                     | 13.0375ms        | match      | /api                                     | 
+2015/05/19 22:02:21 [router.go:845] [D] | GET        | /api                                     | 9.0086ms         | match      | /api                                     | 
+2015/05/19 22:02:21 [router.go:845] [D] | GET        | /api                                     | 15.0233ms        | match      | /api                                     | 
+2015/05/19 22:02:21 [router.go:845] [D] | GET        | /api                                     | 13.013ms         | match      | /api                                     | 
+2015/05/19 22:02:22 [router.go:845] [D] | GET        | /api                                     | 16.0839ms        | match      | /api                                     | 
+2015/05/19 22:02:22 [router.go:845] [D] | GET        | /api                                     | 11.0323ms        | match      | /api                                     | 
+2015/05/19 22:02:22 [router.go:845] [D] | GET        | /api                                     | 14.9893ms        | match      | /api                                     | 
+2015/05/19 22:02:22 [router.go:845] [D] | GET        | /api                                     | 13.0379ms        | match      | /api                                     | 
+2015/05/19 22:02:23 [router.go:845] [D] | GET        | /api                                     | 18.0172ms        | match      | /api                                     | 
+2015/05/19 22:02:24 [router.go:845] [D] | GET        | /api                                     | 17.0271ms        | match      | /api                                     | 
+2015/05/19 22:04:17 [router.go:845] [D] | GET        | /api                                     | 5.0053ms         | match      | /api                                     | 
+2015/05/19 22:04:29 [router.go:845] [D] | GET        | /api                                     | 5.005ms          | match      | /api                                     | 
+2015/05/19 22:04:33 [router.go:845] [D] | GET        | /api                                     | 16.0312ms        | match      | /api                                     | 
+2015/05/19 22:04:34 [router.go:845] [D] | GET        | /api                                     | 15.9882ms        | match      | /api                                     | 
+2015/05/19 22:04:34 [router.go:845] [D] | GET        | /api                                     | 20.0192ms        | match      | /api                                     | 
+2015/05/19 22:04:35 [router.go:845] [D] | GET        | /api                                     | 16.0148ms        | match      | /api                                     | 
+2015/05/19 22:04:35 [router.go:845] [D] | GET        | /api                                     | 15.0148ms        | match      | /api                                     | 
+2015/05/19 22:04:35 [router.go:845] [D] | GET        | /api                                     | 15.0139ms        | match      | /api                                     | 
+2015/05/19 22:04:36 [router.go:845] [D] | GET        | /api                                     | 16.0417ms        | match      | /api                                     | 
+2015/05/19 22:04:36 [router.go:845] [D] | GET        | /api                                     | 7.0065ms         | match      | /api                                     | 
+2015/05/19 22:04:36 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/19 22:04:36 [router.go:845] [D] | GET        | /api                                     | 14.035ms         | match      | /api                                     | 
+2015/05/19 22:04:37 [router.go:845] [D] | GET        | /api                                     | 13.022ms         | match      | /api                                     | 
+2015/05/19 22:04:37 [router.go:845] [D] | GET        | /api                                     | 13.0127ms        | match      | /api                                     | 
+2015/05/19 22:04:37 [router.go:845] [D] | GET        | /api                                     | 15.0394ms        | match      | /api                                     | 
+2015/05/19 22:04:37 [router.go:845] [D] | GET        | /api                                     | 14.0109ms        | match      | /api                                     | 
+2015/05/19 22:04:37 [router.go:845] [D] | GET        | /api                                     | 16.0113ms        | match      | /api                                     | 
+2015/05/19 22:04:38 [router.go:845] [D] | GET        | /api                                     | 2.0137ms         | match      | /api                                     | 
+2015/05/19 22:04:38 [router.go:845] [D] | GET        | /api                                     | 13.0376ms        | match      | /api                                     | 
+2015/05/19 22:04:38 [router.go:845] [D] | GET        | /api                                     | 16.0408ms        | match      | /api                                     | 
+2015/05/19 22:04:38 [router.go:845] [D] | GET        | /api                                     | 14.0127ms        | match      | /api                                     | 
+2015/05/19 22:04:38 [router.go:845] [D] | GET        | /api                                     | 16.0157ms        | match      | /api                                     | 
+2015/05/19 22:04:39 [router.go:845] [D] | GET        | /api                                     | 14.039ms         | match      | /api                                     | 
+2015/05/19 22:04:39 [router.go:845] [D] | GET        | /api                                     | 15.0396ms        | match      | /api                                     | 
+2015/05/19 22:04:39 [router.go:845] [D] | GET        | /api                                     | 10.0299ms        | match      | /api                                     | 
+2015/05/19 22:04:39 [router.go:845] [D] | GET        | /api                                     | 15.0136ms        | match      | /api                                     | 
+2015/05/19 22:04:40 [router.go:845] [D] | GET        | /api                                     | 10.0095ms        | match      | /api                                     | 
+2015/05/19 22:04:40 [router.go:845] [D] | GET        | /api                                     | 13.0163ms        | match      | /api                                     | 
+2015/05/19 22:04:40 [router.go:845] [D] | GET        | /api                                     | 15.015ms         | match      | /api                                     | 
+2015/05/19 22:04:40 [router.go:845] [D] | GET        | /api                                     | 9.0085ms         | match      | /api                                     | 
+2015/05/19 22:04:40 [router.go:845] [D] | GET        | /api                                     | 16.0314ms        | match      | /api                                     | 
+2015/05/19 22:04:41 [router.go:845] [D] | GET        | /api                                     | 13.9885ms        | match      | /api                                     | 
+2015/05/19 22:04:41 [router.go:845] [D] | GET        | /api                                     | 17.0165ms        | match      | /api                                     | 
+2015/05/19 22:04:41 [router.go:845] [D] | GET        | /api                                     | 15.0151ms        | match      | /api                                     | 
+2015/05/19 22:04:41 [router.go:845] [D] | GET        | /api                                     | 13.0379ms        | match      | /api                                     | 
+2015/05/19 22:04:42 [router.go:845] [D] | GET        | /api                                     | 16.0402ms        | match      | /api                                     | 
+2015/05/19 22:04:42 [router.go:845] [D] | GET        | /api                                     | 14.0133ms        | match      | /api                                     | 
+2015/05/19 22:04:42 [router.go:845] [D] | GET        | /api                                     | 16.0409ms        | match      | /api                                     | 
+2015/05/19 22:04:42 [router.go:845] [D] | GET        | /api                                     | 13.0121ms        | match      | /api                                     | 
+2015/05/19 22:04:42 [router.go:845] [D] | GET        | /api                                     | 15.0139ms        | match      | /api                                     | 
+2015/05/19 22:05:55 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:05:58 [router.go:845] [D] | GET        | /api                                     | 7.0059ms         | match      | /api                                     | 
+2015/05/19 22:06:01 [router.go:845] [D] | GET        | /api                                     | 20.0227ms        | match      | /api                                     | 
+2015/05/19 22:06:05 [router.go:845] [D] | GET        | /api                                     | 17.0195ms        | match      | /api                                     | 
+2015/05/19 22:06:06 [router.go:845] [D] | GET        | /api                                     | 16.0198ms        | match      | /api                                     | 
+2015/05/19 22:06:06 [router.go:845] [D] | GET        | /api                                     | 22.0338ms        | match      | /api                                     | 
+2015/05/19 22:06:07 [router.go:845] [D] | GET        | /api                                     | 14.0385ms        | match      | /api                                     | 
+2015/05/19 22:06:07 [router.go:845] [D] | GET        | /api                                     | 15.0139ms        | match      | /api                                     | 
+2015/05/19 22:06:08 [router.go:845] [D] | GET        | /api                                     | 17.0426ms        | match      | /api                                     | 
+2015/05/19 22:06:09 [router.go:845] [D] | GET        | /api                                     | 19.0169ms        | match      | /api                                     | 
+2015/05/19 22:06:10 [router.go:845] [D] | GET        | /api                                     | 17.0157ms        | match      | /api                                     | 
+2015/05/19 22:07:51 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:07:56 [router.go:845] [D] | GET        | /api                                     | 6.0065ms         | match      | /api                                     | 
+2015/05/19 22:07:59 [router.go:845] [D] | GET        | /api                                     | 19.0171ms        | match      | /api                                     | 
+2015/05/19 22:07:59 [router.go:845] [D] | GET        | /api                                     | 14.0387ms        | match      | /api                                     | 
+2015/05/19 22:08:00 [router.go:845] [D] | GET        | /api                                     | 16.0154ms        | match      | /api                                     | 
+2015/05/19 22:08:00 [router.go:845] [D] | GET        | /api                                     | 13.0378ms        | match      | /api                                     | 
+2015/05/19 22:08:01 [router.go:845] [D] | GET        | /api                                     | 14.0393ms        | match      | /api                                     | 
+2015/05/19 22:08:01 [router.go:845] [D] | GET        | /api                                     | 16.0411ms        | match      | /api                                     | 
+2015/05/19 22:08:01 [router.go:845] [D] | GET        | /api                                     | 13.0378ms        | match      | /api                                     | 
+2015/05/19 22:08:01 [router.go:845] [D] | GET        | /api                                     | 16.0159ms        | match      | /api                                     | 
+2015/05/19 22:08:02 [router.go:845] [D] | GET        | /api                                     | 14.0388ms        | match      | /api                                     | 
+2015/05/19 22:08:02 [router.go:845] [D] | GET        | /api                                     | 15.0393ms        | match      | /api                                     | 
+2015/05/19 22:08:02 [router.go:845] [D] | GET        | /api                                     | 13.0127ms        | match      | /api                                     | 
+2015/05/19 22:08:02 [router.go:845] [D] | GET        | /api                                     | 16.9914ms        | match      | /api                                     | 
+2015/05/19 22:08:03 [router.go:845] [D] | GET        | /api                                     | 14.0382ms        | match      | /api                                     | 
+2015/05/19 22:08:03 [router.go:845] [D] | GET        | /api                                     | 14.0133ms        | match      | /api                                     | 
+2015/05/19 22:08:03 [router.go:845] [D] | GET        | /api                                     | 15.0815ms        | match      | /api                                     | 
+2015/05/19 22:08:03 [router.go:845] [D] | GET        | /api                                     | 14.0396ms        | match      | /api                                     | 
+2015/05/19 22:08:03 [router.go:845] [D] | GET        | /api                                     | 4.0495ms         | match      | /api                                     | 
+2015/05/19 22:08:04 [router.go:845] [D] | GET        | /api                                     | 11.0106ms        | match      | /api                                     | 
+2015/05/19 22:08:04 [router.go:845] [D] | GET        | /api                                     | 15.0402ms        | match      | /api                                     | 
+2015/05/19 22:08:04 [router.go:845] [D] | GET        | /api                                     | 13.0387ms        | match      | /api                                     | 
+2015/05/19 22:08:04 [router.go:845] [D] | GET        | /api                                     | 13.9872ms        | match      | /api                                     | 
+2015/05/19 22:08:04 [router.go:845] [D] | GET        | /api                                     | 14.03ms          | match      | /api                                     | 
+2015/05/19 22:08:05 [router.go:845] [D] | GET        | /api                                     | 9.0282ms         | match      | /api                                     | 
+2015/05/19 22:21:33 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:21:37 [router.go:845] [D] | GET        | /api                                     | 6.0051ms         | match      | /api                                     | 
+2015/05/19 22:23:20 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:23:23 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/19 22:28:51 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:29:12 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:30:31 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:30:35 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/19 22:31:41 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:31:46 [router.go:845] [D] | GET        | /api                                     | 5.9933ms         | match      | /api                                     | 
+2015/05/19 22:31:49 [router.go:845] [D] | GET        | /api                                     | 22.021ms         | match      | /api                                     | 
+2015/05/19 22:32:06 [router.go:845] [D] | GET        | /api                                     | 3.003ms          | match      | /api                                     | 
+2015/05/19 22:34:00 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:34:03 [router.go:845] [D] | GET        | /api                                     | 6.0051ms         | match      | /api                                     | 
+2015/05/19 22:52:25 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:52:30 [router.go:845] [D] | GET        | /api                                     | 6.0062ms         | match      | /api                                     | 
+2015/05/19 22:54:16 [router.go:845] [D] | GET        | /api                                     | 6.0054ms         | match      | /api                                     | 
+2015/05/19 22:54:17 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:55:01 [app.go:103] [I] http server Running on :9900
+2015/05/19 22:55:01 [router.go:845] [D] | GET        | /api                                     | 12.0239ms        | match      | /api                                     | 
+2015/05/19 23:21:38 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:23:55 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:24:04 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:24:11 [router.go:845] [D] | GET        | /api                                     | 29.0916ms        | match      | /api                                     | 
+2015/05/19 23:24:13 [router.go:845] [D] | GET        | /api                                     | 14.0318ms        | match      | /api                                     | 
+2015/05/19 23:24:14 [router.go:845] [D] | GET        | /api                                     | 14.0338ms        | match      | /api                                     | 
+2015/05/19 23:24:14 [router.go:845] [D] | GET        | /api                                     | 18.0209ms        | match      | /api                                     | 
+2015/05/19 23:24:15 [router.go:845] [D] | GET        | /api                                     | 12.9863ms        | match      | /api                                     | 
+2015/05/19 23:24:15 [router.go:845] [D] | GET        | /api                                     | 13.039ms         | match      | /api                                     | 
+2015/05/19 23:24:16 [router.go:845] [D] | GET        | /api                                     | 15.0125ms        | match      | /api                                     | 
+2015/05/19 23:24:16 [router.go:845] [D] | GET        | /api                                     | 13.0318ms        | match      | /api                                     | 
+2015/05/19 23:24:16 [router.go:845] [D] | GET        | /api                                     | 15.04ms          | match      | /api                                     | 
+2015/05/19 23:24:16 [router.go:845] [D] | GET        | /api                                     | 13.9878ms        | match      | /api                                     | 
+2015/05/19 23:24:16 [router.go:845] [D] | GET        | /api                                     | 12.0335ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 15.0402ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 13.0128ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 16.0159ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 14.0133ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 15.0835ms        | match      | /api                                     | 
+2015/05/19 23:24:17 [router.go:845] [D] | GET        | /api                                     | 13.0077ms        | match      | /api                                     | 
+2015/05/19 23:24:18 [router.go:845] [D] | GET        | /api                                     | 14.0312ms        | match      | /api                                     | 
+2015/05/19 23:24:18 [router.go:845] [D] | GET        | /api                                     | 9.008ms          | match      | /api                                     | 
+2015/05/19 23:24:18 [router.go:845] [D] | GET        | /api                                     | 14.0142ms        | match      | /api                                     | 
+2015/05/19 23:24:18 [router.go:845] [D] | GET        | /api                                     | 14.0136ms        | match      | /api                                     | 
+2015/05/19 23:24:18 [router.go:845] [D] | GET        | /api                                     | 16.0148ms        | match      | /api                                     | 
+2015/05/19 23:24:19 [router.go:845] [D] | GET        | /api                                     | 12.9914ms        | match      | /api                                     | 
+2015/05/19 23:24:19 [router.go:845] [D] | GET        | /api                                     | 15.0642ms        | match      | /api                                     | 
+2015/05/19 23:24:19 [router.go:845] [D] | GET        | /api                                     | 14.0133ms        | match      | /api                                     | 
+2015/05/19 23:24:19 [router.go:845] [D] | GET        | /api                                     | 17.0166ms        | match      | /api                                     | 
+2015/05/19 23:24:20 [router.go:845] [D] | GET        | /api                                     | 13.0116ms        | match      | /api                                     | 
+2015/05/19 23:24:20 [router.go:845] [D] | GET        | /api                                     | 13.0385ms        | match      | /api                                     | 
+2015/05/19 23:24:20 [router.go:845] [D] | GET        | /api                                     | 16.0406ms        | match      | /api                                     | 
+2015/05/19 23:24:20 [router.go:845] [D] | GET        | /api                                     | 13.0121ms        | match      | /api                                     | 
+2015/05/19 23:24:20 [router.go:845] [D] | GET        | /api                                     | 15.0403ms        | match      | /api                                     | 
+2015/05/19 23:24:21 [router.go:845] [D] | GET        | /api                                     | 15.0405ms        | match      | /api                                     | 
+2015/05/19 23:24:21 [router.go:845] [D] | GET        | /api                                     | 9.0077ms         | match      | /api                                     | 
+2015/05/19 23:24:21 [router.go:845] [D] | GET        | /api                                     | 5.9898ms         | match      | /api                                     | 
+2015/05/19 23:24:22 [router.go:845] [D] | GET        | /api                                     | 3.0027ms         | match      | /api                                     | 
+2015/05/19 23:24:24 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/19 23:24:26 [router.go:845] [D] | GET        | /api                                     | 4.0036ms         | match      | /api                                     | 
+2015/05/19 23:24:27 [router.go:845] [D] | GET        | /api                                     | 3.003ms          | match      | /api                                     | 
+2015/05/19 23:24:31 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/19 23:24:36 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:24:38 [router.go:845] [D] | GET        | /api                                     | 7.0062ms         | match      | /api                                     | 
+2015/05/19 23:24:42 [router.go:845] [D] | GET        | /api                                     | 5.0044ms         | match      | /api                                     | 
+2015/05/19 23:24:44 [router.go:845] [D] | GET        | /api                                     | 4.003ms          | match      | /api                                     | 
+2015/05/19 23:27:13 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:27:17 [router.go:845] [D] | GET        | /api                                     | 5.005ms          | match      | /api                                     | 
+2015/05/19 23:27:20 [router.go:845] [D] | GET        | /api                                     | 4.0032ms         | match      | /api                                     | 
+2015/05/19 23:27:22 [router.go:845] [D] | GET        | /api                                     | 1.9901ms         | match      | /api                                     | 
+2015/05/19 23:27:24 [router.go:845] [D] | GET        | /api                                     | 2.0023ms         | match      | /api                                     | 
+2015/05/19 23:27:25 [router.go:845] [D] | GET        | /api                                     | 3.0159ms         | match      | /api                                     | 
+2015/05/19 23:28:25 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:31:55 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:32:02 [router.go:871] [C] the request url is  /api 
+2015/05/19 23:32:02 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/19 23:32:02 [router.go:878] [C] E:/go/src/golune/apis/out.go:153 
+2015/05/19 23:32:02 [router.go:878] [C] E:/go/src/golune/apis/out.go:94 
+2015/05/19 23:32:02 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/19 23:32:02 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/19 23:32:02 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/19 23:33:10 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:33:18 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:33:26 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/19 23:33:28 [router.go:845] [D] | GET        | /api                                     | 18.0157ms        | match      | /api                                     | 
+2015/05/19 23:33:29 [router.go:845] [D] | GET        | /api                                     | 16.0156ms        | match      | /api                                     | 
+2015/05/19 23:33:29 [router.go:845] [D] | GET        | /api                                     | 9.0267ms         | match      | /api                                     | 
+2015/05/19 23:33:29 [router.go:845] [D] | GET        | /api                                     | 14.0133ms        | match      | /api                                     | 
+2015/05/19 23:33:29 [router.go:845] [D] | GET        | /api                                     | 13.0071ms        | match      | /api                                     | 
+2015/05/19 23:33:29 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 16.042ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 13.9872ms        | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 17.0165ms        | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 4.0033ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 6.0057ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 9.0089ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 4.0039ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 5.0053ms         | match      | /api                                     | 
+2015/05/19 23:33:30 [router.go:845] [D] | GET        | /api                                     | 3.003ms          | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.0039ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0032ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.002ms          | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 6.0056ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.0199ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 8.008ms          | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.0135ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0033ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.0032ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 2.0024ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0035ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0027ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 2.0024ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0029ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 3.0032ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 7.0065ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 2.9921ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.9944ms         | match      | /api                                     | 
+2015/05/19 23:33:31 [router.go:845] [D] | GET        | /api                                     | 4.0074ms         | match      | /api                                     | 
+2015/05/19 23:39:12 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:40:30 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:49:15 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:56:33 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:59:22 [app.go:103] [I] http server Running on :9900
+2015/05/19 23:59:30 [router.go:845] [D] | GET        | /api                                     | 7.0065ms         | match      | /api                                     | 
+2015/05/20 00:01:24 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:01:27 [router.go:845] [D] | GET        | /api                                     | 6.0047ms         | match      | /api                                     | 
+2015/05/20 00:02:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:02:09 [router.go:845] [D] | GET        | /api                                     | 5.9945ms         | match      | /api                                     | 
+2015/05/20 00:04:14 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:04:19 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/20 00:05:43 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:05:47 [router.go:871] [C] the request url is  /api 
+2015/05/20 00:05:47 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/20 00:05:47 [router.go:878] [C] E:/go/src/golune/apis/out.go:112 
+2015/05/20 00:05:47 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 00:05:47 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 00:05:47 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 00:08:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:08:08 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/20 00:08:22 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/20 00:08:23 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:08:24 [router.go:845] [D] | GET        | /api                                     | 18.0189ms        | match      | /api                                     | 
+2015/05/20 00:08:25 [router.go:845] [D] | GET        | /api                                     | 14.0394ms        | match      | /api                                     | 
+2015/05/20 00:08:25 [router.go:845] [D] | GET        | /api                                     | 20.0195ms        | match      | /api                                     | 
+2015/05/20 00:08:25 [router.go:845] [D] | GET        | /api                                     | 13.03ms          | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 6.0165ms         | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 8.0199ms         | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 7.0083ms         | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 15.0113ms        | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 14.0411ms        | match      | /api                                     | 
+2015/05/20 00:08:26 [router.go:845] [D] | GET        | /api                                     | 12.0387ms        | match      | /api                                     | 
+2015/05/20 00:08:27 [router.go:845] [D] | GET        | /api                                     | 4.0167ms         | match      | /api                                     | 
+2015/05/20 00:08:34 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:08:36 [router.go:845] [D] | GET        | /api                                     | 6.0045ms         | match      | /api                                     | 
+2015/05/20 00:08:56 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:09:00 [router.go:845] [D] | GET        | /api                                     | 6.0062ms         | match      | /api                                     | 
+2015/05/20 00:09:03 [router.go:845] [D] | GET        | /api                                     | 5.0039ms         | match      | /api                                     | 
+2015/05/20 00:09:05 [router.go:845] [D] | GET        | /api                                     | 17.0385ms        | match      | /api                                     | 
+2015/05/20 00:09:05 [router.go:845] [D] | GET        | /api                                     | 16.016ms         | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 13.027ms         | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 20.0195ms        | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 8.0097ms         | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 14.0335ms        | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 16.0414ms        | match      | /api                                     | 
+2015/05/20 00:09:06 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/20 00:09:07 [router.go:845] [D] | GET        | /api                                     | 16.0151ms        | match      | /api                                     | 
+2015/05/20 00:10:42 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:10:44 [router.go:871] [C] the request url is  /api 
+2015/05/20 00:10:44 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/20 00:10:44 [router.go:878] [C] E:/go/src/golune/apis/out.go:104 
+2015/05/20 00:10:44 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 00:10:44 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 00:10:44 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 00:13:17 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:13:21 [router.go:871] [C] the request url is  /api 
+2015/05/20 00:13:21 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/20 00:13:21 [router.go:878] [C] E:/go/src/golune/apis/out.go:104 
+2015/05/20 00:13:21 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 00:13:21 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 00:13:21 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 00:14:03 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:14:06 [router.go:871] [C] the request url is  /api 
+2015/05/20 00:14:06 [router.go:872] [C] Handler crashed with error assignment to entry in nil map 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/runtime/hashmap.go:385 
+2015/05/20 00:14:06 [router.go:878] [C] E:/go/src/golune/apis/out.go:104 
+2015/05/20 00:14:06 [router.go:878] [C] E:/go/src/golune/apis/out.go:88 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 00:14:06 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 00:14:06 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 00:14:46 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:14:49 [router.go:845] [D] | GET        | /api                                     | 7.0059ms         | match      | /api                                     | 
+2015/05/20 00:17:15 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:17:21 [router.go:845] [D] | GET        | /api                                     | 4.9931ms         | match      | /api                                     | 
+2015/05/20 00:17:51 [router.go:845] [D] | GET        | /api                                     | 16.0142ms        | match      | /api                                     | 
+2015/05/20 00:17:52 [router.go:845] [D] | GET        | /api                                     | 13.987ms         | match      | /api                                     | 
+2015/05/20 00:17:52 [router.go:845] [D] | GET        | /api                                     | 16.0408ms        | match      | /api                                     | 
+2015/05/20 00:17:52 [router.go:845] [D] | GET        | /api                                     | 15.0098ms        | match      | /api                                     | 
+2015/05/20 00:17:52 [router.go:845] [D] | GET        | /api                                     | 10.0186ms        | match      | /api                                     | 
+2015/05/20 00:17:52 [router.go:845] [D] | GET        | /api                                     | 16.0409ms        | match      | /api                                     | 
+2015/05/20 00:23:29 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:23:38 [router.go:845] [D] | GET        | /api                                     | 22.0207ms        | match      | /api                                     | 
+2015/05/20 00:24:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:24:07 [router.go:845] [D] | GET        | /api                                     | 5.9988ms         | match      | /api                                     | 
+2015/05/20 00:25:02 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:25:06 [router.go:845] [D] | GET        | /api                                     | 6.0059ms         | match      | /api                                     | 
+2015/05/20 00:25:53 [router.go:845] [D] | GET        | /api                                     | 4.9925ms         | match      | /api                                     | 
+2015/05/20 00:26:19 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/20 00:26:20 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:26:38 [router.go:845] [D] | GET        | /api                                     | 8.0077ms         | match      | /api                                     | 
+2015/05/20 00:27:19 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:27:22 [router.go:845] [D] | GET        | /api                                     | 6.0056ms         | match      | /api                                     | 
+2015/05/20 00:27:25 [router.go:845] [D] | GET        | /api                                     | 11.0107ms        | match      | /api                                     | 
+2015/05/20 00:27:58 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:28:00 [router.go:845] [D] | GET        | /api                                     | 9.0092ms         | match      | /api                                     | 
+2015/05/20 00:28:44 [router.go:845] [D] | GET        | /api                                     | 7.0068ms         | match      | /api                                     | 
+2015/05/20 00:28:44 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:28:46 [router.go:845] [D] | GET        | /api                                     | 26.0412ms        | match      | /api                                     | 
+2015/05/20 00:30:19 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:30:21 [router.go:845] [D] | GET        | /api                                     | 6.0053ms         | match      | /api                                     | 
+2015/05/20 00:33:58 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:34:01 [router.go:845] [D] | GET        | /api                                     | 11.0013ms        | match      | /api                                     | 
+2015/05/20 00:48:03 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:48:34 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0139ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 00:50:08 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0124ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 00:57:33 [app.go:103] [I] http server Running on :9900
+2015/05/20 00:57:34 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 16.0145ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 00:58:39 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 62.0601ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:04:43 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0131ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:07:04 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0136ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:07:39 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0127ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:07:57 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0136ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:10:10 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0128ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:12:25 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:12:25 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 01:12:25 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 01:12:25 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 01:12:25 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 01:12:25 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 01:12:52 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0113ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:13:18 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0022ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:15:24 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:16:12 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0133ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:16:45 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0139ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:17:16 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0148ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:20:13 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0128ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:20:30 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0128ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:24:53 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:24:54 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 01:24:54 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 01:24:54 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 01:24:54 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 01:24:54 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 01:26:26 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 01:26:26 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 01:26:26 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 01:26:26 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 01:26:26 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 01:26:34 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:26:36 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 01:26:36 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 01:26:36 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 01:26:36 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 01:26:36 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 01:26:56 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 01:26:56 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 01:26:56 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 01:26:56 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 01:26:56 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 01:27:09 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0118ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:27:56 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0127ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:28:15 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.013ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 01:28:24 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0122ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 01:35:09 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:37:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:38:24 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:38:38 [router.go:845] [D] | GET        | /api                                     | 11.0109ms        | match      | /api                                     | 
+2015/05/20 01:44:42 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:44:45 [router.go:845] [D] | GET        | /api                                     | 10.0101ms        | match      | /api                                     | 
+2015/05/20 01:45:39 [router.go:845] [D] | GET        | /api                                     | 8.0071ms         | match      | /api                                     | 
+2015/05/20 01:45:40 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:45:44 [router.go:845] [D] | GET        | /api                                     | 9.0121ms         | match      | /api                                     | 
+2015/05/20 01:46:19 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:46:21 [router.go:845] [D] | GET        | /api                                     | 9.0091ms         | match      | /api                                     | 
+2015/05/20 01:46:22 [router.go:845] [D] | GET        | /api                                     | 32.0465ms        | match      | /api                                     | 
+2015/05/20 01:46:27 [router.go:845] [D] | GET        | /api                                     | 7.0071ms         | match      | /api                                     | 
+2015/05/20 01:46:51 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:46:56 [router.go:845] [D] | GET        | /api                                     | 25.0348ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 15.0352ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 21.9955ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 18.0294ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 9.9954ms         | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 24.9985ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 11.0121ms        | match      | /api                                     | 
+2015/05/20 01:46:57 [router.go:845] [D] | GET        | /api                                     | 16.0283ms        | match      | /api                                     | 
+2015/05/20 01:46:58 [router.go:845] [D] | GET        | /api                                     | 26.9956ms        | match      | /api                                     | 
+2015/05/20 01:46:58 [router.go:845] [D] | GET        | /api                                     | 23.0341ms        | match      | /api                                     | 
+2015/05/20 01:46:58 [router.go:845] [D] | GET        | /api                                     | 27.0257ms        | match      | /api                                     | 
+2015/05/20 01:47:37 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:49:23 [router.go:845] [D] | GET        | /api                                     | 11.0104ms        | match      | /api                                     | 
+2015/05/20 01:49:23 [app.go:103] [I] http server Running on :9900
+2015/05/20 01:49:39 [router.go:845] [D] | GET        | /api                                     | 9.0121ms         | match      | /api                                     | 
+2015/05/20 01:50:02 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:16:45 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:17:08 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 26.0254ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:17:54 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0119ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:18:20 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0127ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:21:18 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.013ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 09:29:48 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0144ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:31:41 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.0034ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:32:10 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0042ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:33:57 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:33:58 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 16.0157ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:35:42 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:35:42 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 15.0145ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 09:35:50 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 14.013ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 09:38:01 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:38:09 [router.go:845] [D] | GET        | /api                                     | 5.0044ms         | match      | /api                                     | 
+2015/05/20 09:38:13 [router.go:845] [D] | GET        | /api                                     | 23.0266ms        | match      | /api                                     | 
+2015/05/20 09:38:13 [router.go:845] [D] | GET        | /api                                     | 13.0379ms        | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 9.0253ms         | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 3.0027ms         | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 7.0223ms         | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 8.0285ms         | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 4.0032ms         | match      | /api                                     | 
+2015/05/20 09:38:14 [router.go:845] [D] | GET        | /api                                     | 7.0188ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 3.0027ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 7.0068ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 4.0038ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 3.0071ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 6.0077ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 7.0086ms         | match      | /api                                     | 
+2015/05/20 09:38:15 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/20 09:39:30 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:39:34 [router.go:845] [D] | GET        | /api                                     | 5.0167ms         | match      | /api                                     | 
+2015/05/20 09:41:27 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:41:37 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:41:37 [router.go:845] [D] | GET        | /api                                     | 4.0024ms         | match      | /api                                     | 
+2015/05/20 09:41:59 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:42:02 [router.go:845] [D] | GET        | /api                                     | 12.0103ms        | match      | /api                                     | 
+2015/05/20 09:42:03 [router.go:845] [D] | GET        | /api                                     | 5.0044ms         | match      | /api                                     | 
+2015/05/20 09:42:03 [router.go:845] [D] | GET        | /api                                     | 7.0329ms         | match      | /api                                     | 
+2015/05/20 09:42:04 [router.go:845] [D] | GET        | /api                                     | 2.0027ms         | match      | /api                                     | 
+2015/05/20 09:42:04 [router.go:845] [D] | GET        | /api                                     | 2.0176ms         | match      | /api                                     | 
+2015/05/20 09:42:12 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:42:14 [router.go:845] [D] | GET        | /api                                     | 15.0314ms        | match      | /api                                     | 
+2015/05/20 09:42:15 [router.go:845] [D] | GET        | /api                                     | 21.0207ms        | match      | /api                                     | 
+2015/05/20 09:42:15 [router.go:845] [D] | GET        | /api                                     | 8.0077ms         | match      | /api                                     | 
+2015/05/20 09:44:20 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:44:32 [router.go:845] [D] | GET        | /api                                     | 5.0041ms         | match      | /api                                     | 
+2015/05/20 09:44:35 [router.go:845] [D] | GET        | /api                                     | 15.0402ms        | match      | /api                                     | 
+2015/05/20 09:45:02 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:45:16 [router.go:845] [D] | GET        | /api                                     | 5.0047ms         | match      | /api                                     | 
+2015/05/20 09:45:19 [router.go:845] [D] | GET        | /api                                     | 17.0162ms        | match      | /api                                     | 
+2015/05/20 09:45:37 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:45:45 [router.go:845] [D] | GET        | /api                                     | 5.0164ms         | match      | /api                                     | 
+2015/05/20 09:45:47 [router.go:845] [D] | GET        | /api                                     | 16.0154ms        | match      | /api                                     | 
+2015/05/20 09:45:56 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:45:58 [router.go:845] [D] | GET        | /api                                     | 6.005ms          | match      | /api                                     | 
+2015/05/20 09:46:13 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:46:16 [router.go:845] [D] | GET        | /api                                     | 17.0151ms        | match      | /api                                     | 
+2015/05/20 09:46:17 [router.go:845] [D] | GET        | /api                                     | 10.0091ms        | match      | /api                                     | 
+2015/05/20 09:46:17 [router.go:845] [D] | GET        | /api                                     | 7.9819ms         | match      | /api                                     | 
+2015/05/20 09:46:17 [router.go:845] [D] | GET        | /api                                     | 2.0018ms         | match      | /api                                     | 
+2015/05/20 09:46:17 [router.go:845] [D] | GET        | /api                                     | 3.0188ms         | match      | /api                                     | 
+2015/05/20 09:46:26 [router.go:845] [D] | GET        | /api                                     | 3.0024ms         | match      | /api                                     | 
+2015/05/20 09:46:26 [router.go:845] [D] | GET        | /api                                     | 2.0135ms         | match      | /api                                     | 
+2015/05/20 09:46:27 [router.go:845] [D] | GET        | /api                                     | 5.0042ms         | match      | /api                                     | 
+2015/05/20 09:46:27 [router.go:845] [D] | GET        | /api                                     | 2.0015ms         | match      | /api                                     | 
+2015/05/20 09:46:27 [router.go:845] [D] | GET        | /api                                     | 1.0012ms         | match      | /api                                     | 
+2015/05/20 09:46:27 [router.go:845] [D] | GET        | /api                                     | 3.0035ms         | match      | /api                                     | 
+2015/05/20 09:46:27 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:46:27 [router.go:845] [D] | GET        | /api                                     | 2.9992ms         | match      | /api                                     | 
+2015/05/20 09:47:08 [router.go:845] [D] | GET        | /api                                     | 3.0147ms         | match      | /api                                     | 
+2015/05/20 09:49:47 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:49:51 [router.go:845] [D] | GET        | /api                                     | 5.0032ms         | match      | /api                                     | 
+2015/05/20 09:49:58 [router.go:845] [D] | GET        | /api                                     | 9.0079ms         | match      | /api                                     | 
+2015/05/20 09:49:58 [router.go:845] [D] | GET        | /api                                     | 7.0329ms         | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 10.0056ms        | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 6.0258ms         | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 1.9959ms         | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 3.0228ms         | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 7.0068ms         | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 2.002ms          | match      | /api                                     | 
+2015/05/20 09:50:00 [router.go:845] [D] | GET        | /api                                     | 1.0021ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 6.0047ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 1.0015ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 4.9851ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 2.0017ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 1.0015ms         | match      | /api                                     | 
+2015/05/20 09:50:01 [router.go:845] [D] | GET        | /api                                     | 2.0021ms         | match      | /api                                     | 
+2015/05/20 09:50:02 [router.go:845] [D] | GET        | /api                                     | 5.0577ms         | match      | /api                                     | 
+2015/05/20 09:50:02 [router.go:845] [D] | GET        | /api                                     | 4.9998ms         | match      | /api                                     | 
+2015/05/20 09:50:02 [router.go:845] [D] | GET        | /api                                     | 4.0036ms         | match      | /api                                     | 
+2015/05/20 09:50:02 [router.go:845] [D] | GET        | /api                                     | 1.0006ms         | match      | /api                                     | 
+2015/05/20 09:51:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:51:09 [router.go:845] [D] | GET        | /api                                     | 9.008ms          | match      | /api                                     | 
+2015/05/20 09:51:09 [router.go:845] [D] | GET        | /api                                     | 4.0234ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 7.0325ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 3.0029ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 4.0036ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 2.0021ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 2.0027ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 3.0035ms         | match      | /api                                     | 
+2015/05/20 09:51:10 [router.go:845] [D] | GET        | /api                                     | 1.0021ms         | match      | /api                                     | 
+2015/05/20 09:51:11 [router.go:845] [D] | GET        | /api                                     | 3.0021ms         | match      | /api                                     | 
+2015/05/20 09:51:11 [router.go:845] [D] | GET        | /api                                     | 2.0015ms         | match      | /api                                     | 
+2015/05/20 09:52:13 [router.go:845] [D] | GET        | /api                                     | 6.0053ms         | match      | /api                                     | 
+2015/05/20 09:52:13 [router.go:845] [D] | GET        | /api                                     | 3.0033ms         | match      | /api                                     | 
+2015/05/20 09:52:14 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:52:14 [router.go:845] [D] | GET        | /api                                     | 7.008ms          | match      | /api                                     | 
+2015/05/20 09:52:15 [router.go:845] [D] | GET        | /api                                     | 5.0065ms         | match      | /api                                     | 
+2015/05/20 09:52:15 [router.go:845] [D] | GET        | /api                                     | 3.0199ms         | match      | /api                                     | 
+2015/05/20 09:52:16 [router.go:845] [D] | GET        | /api                                     | 4.0363ms         | match      | /api                                     | 
+2015/05/20 09:52:16 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/20 09:52:16 [router.go:845] [D] | GET        | /api                                     | 4.0214ms         | match      | /api                                     | 
+2015/05/20 09:52:16 [router.go:845] [D] | GET        | /api                                     | 5.0232ms         | match      | /api                                     | 
+2015/05/20 09:52:16 [router.go:845] [D] | GET        | /api                                     | 3.0032ms         | match      | /api                                     | 
+2015/05/20 09:52:17 [router.go:845] [D] | GET        | /api                                     | 5.0214ms         | match      | /api                                     | 
+2015/05/20 09:52:17 [router.go:845] [D] | GET        | /api                                     | 5.0208ms         | match      | /api                                     | 
+2015/05/20 09:52:17 [router.go:845] [D] | GET        | /api                                     | 4.0015ms         | match      | /api                                     | 
+2015/05/20 09:52:21 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:52:22 [router.go:845] [D] | GET        | /api                                     | 11.0267ms        | match      | /api                                     | 
+2015/05/20 09:52:22 [router.go:845] [D] | GET        | /api                                     | 10.0095ms        | match      | /api                                     | 
+2015/05/20 09:52:22 [router.go:845] [D] | GET        | /api                                     | 7.0065ms         | match      | /api                                     | 
+2015/05/20 09:52:23 [router.go:845] [D] | GET        | /api                                     | 7.0258ms         | match      | /api                                     | 
+2015/05/20 09:54:00 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:54:32 [app.go:103] [I] http server Running on :9900
+2015/05/20 09:54:36 [router.go:845] [D] | GET        | /api                                     | 5.0045ms         | match      | /api                                     | 
+2015/05/20 09:54:40 [router.go:845] [D] | GET        | /api                                     | 4.005ms          | match      | /api                                     | 
+2015/05/20 09:55:59 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 7.0162ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 09:57:50 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 1.9901ms         | match      | /api/blog/create/blog                    | 
+2015/05/20 09:58:13 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 2.9916ms         | match      | /api/blog/create/blog                    | 
+2015/05/20 09:58:20 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0092ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:02:55 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 10:02:55 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 10:02:55 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 10:02:55 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 10:02:55 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 10:02:55 [app.go:103] [I] http server Running on :9900
+2015/05/20 10:03:57 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.01ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 10:12:07 [app.go:103] [I] http server Running on :9900
+2015/05/20 10:12:14 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0103ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:12:35 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.008ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 10:12:39 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 23.021ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:12:41 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 29.0281ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:12:43 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 6.9957ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:13:16 [app.go:103] [I] http server Running on :9900
+2015/05/20 10:29:07 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0112ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:30:04 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0103ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:30:23 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.0077ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:31:57 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0077ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:32:46 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.9966ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:35:38 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0094ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:40:08 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.0076ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:52:44 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 10:53:04 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0088ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 10:54:55 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0092ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:25:56 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.9975ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 11:26:24 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0095ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 11:29:18 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 11:29:18 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 11:29:18 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 11:29:18 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 11:29:18 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 11:29:33 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0083ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:29:54 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0092ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 11:31:42 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0086ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:33:07 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0074ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:34:52 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.9981ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 11:47:45 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0083ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:48:31 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0088ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 11:53:17 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0101ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 11:53:56 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0098ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:01:11 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0086ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:01:47 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0098ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:02:21 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.999ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 12:06:52 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0098ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:07:47 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 36.0509ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:07:59 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:08:13 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 7.0063ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:08:21 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.9986ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:08:27 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0203ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:11:55 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0095ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:13:58 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0086ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:15:59 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0244ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:16:41 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0094ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:18:11 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0095ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:18:23 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0095ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:20:12 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.9978ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:21:11 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0085ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:21:21 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0101ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:23:23 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.0071ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:26:35 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0106ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:28:18 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0085ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:29:42 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0088ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:32:47 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.9966ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 12:34:34 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:35:48 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0095ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:36:24 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0197ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:38:42 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0097ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 12:39:30 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0106ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 19:44:29 [app.go:103] [I] http server Running on :9900
+2015/05/20 19:47:07 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 7.0065ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 19:53:48 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.998ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 20:02:07 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0103ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:02:41 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.008ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 20:03:23 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 7.0062ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 20:04:35 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.0107ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 20:06:43 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 21.0196ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:10:59 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 45.0611ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:15:45 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0089ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:16:17 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:17:11 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0221ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:23:39 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:23:54 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:24:05 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 9.0085ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 20:26:24 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0215ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:28:28 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 20:28:28 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 20:28:28 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 20:28:28 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 20:28:28 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 20:28:38 [router.go:871] [C] the request url is  /api/blog/cache/index 
+2015/05/20 20:28:38 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 20:28:38 [router.go:878] [C] E:/go/src/golune/apis/out.go:77 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 20:28:38 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 20:28:38 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 20:33:24 [app.go:103] [I] http server Running on :9900
+2015/05/20 20:35:06 [app.go:103] [I] http server Running on :9900
+2015/05/20 20:35:06 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 47.0195ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:35:34 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0101ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:51:50 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0209ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:57:27 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.011ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 20:57:45 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0101ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:59:30 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0226ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 20:59:50 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0098ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:01:29 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0119ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:02:12 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.9983ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:06:00 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0106ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:06:59 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:07:22 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0109ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:07:45 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0227ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:08:15 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0265ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:11:24 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0235ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:13:56 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:14:27 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 12.0115ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:14:50 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0107ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:15:33 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.01ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 21:15:52 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.02ms          | match      | /api/blog/cache/index                    | 
+2015/05/20 21:16:13 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0103ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:19:10 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.9987ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:24:02 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0127ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:24:20 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0107ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:24:49 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 13.0121ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:25:02 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0098ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:26:55 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0104ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 21:38:52 [app.go:103] [I] http server Running on :9900
+2015/05/20 22:00:02 [app.go:103] [I] http server Running on :9900
+2015/05/20 22:04:46 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 10.0089ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 22:07:43 [app.go:103] [I] http server Running on :9900
+2015/05/20 22:08:17 [router.go:845] [D] | GET        | /api/blog/cache/html                     | 2.0018ms         | notmatch   | 
+2015/05/20 22:08:41 [app.go:103] [I] http server Running on :9900
+2015/05/20 22:08:46 [router.go:871] [C] the request url is  /api/blog/cache/blog 
+2015/05/20 22:08:46 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 22:08:46 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 22:08:46 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 22:08:46 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 22:12:13 [router.go:871] [C] the request url is  /api/blog/cache/blog 
+2015/05/20 22:12:13 [router.go:872] [C] Handler crashed with error runtime error: invalid memory address or nil pointer dereference 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/panic.go:387 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/panic.go:42 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/os_windows.go:42 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/html/template/template.go:59 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/html/template/template.go:75 
+2015/05/20 22:12:13 [router.go:878] [C] E:/go/src/golune/apis/out.go:60 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:401 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/reflect/value.go:419 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/reflect/value.go:296 
+2015/05/20 22:12:13 [router.go:878] [C] E:/go/src/github.com/astaxie/beego/router.go:794 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/net/http/server.go:1703 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/net/http/server.go:1204 
+2015/05/20 22:12:13 [router.go:878] [C] c:/go/src/runtime/asm_amd64.s:2232 
+2015/05/20 22:12:13 [app.go:103] [I] http server Running on :9900
+2015/05/20 22:13:51 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 10.0139ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:16:39 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 14.0133ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:18:20 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 11.0106ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:18:55 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 16.0148ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:26:27 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 14.0136ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:27:32 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 6.0168ms         | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:38:32 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 14.0007ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:38:59 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 18.016ms         | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:39:05 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 8.0077ms         | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:39:41 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 15.015ms         | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:40:50 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 15.0145ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:41:34 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 14.015ms         | match      | /api/blog/cache/blog                     | 
+2015/05/20 22:45:58 [router.go:845] [D] | GET        | /api/blog/cache/blog                     | 15.0157ms        | match      | /api/blog/cache/blog                     | 
+2015/05/20 23:11:58 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:24:44 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:25:14 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:28:32 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 12.0229ms        | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:31:10 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 7.0065ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:34:25 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.0071ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:35:49 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:35:50 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 5.0047ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:36:09 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:36:09 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 10.0356ms        | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:36:12 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 988.6µs          | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:36:48 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:36:50 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 4.0035ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:36:57 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 1.0012ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:38:32 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:38:35 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 4.0051ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:38:53 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:38:53 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 2.991ms          | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:39:04 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:43:15 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:45:48 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 11.0229ms        | match      | /api/blog/cache/index                    | 
+2015/05/20 23:46:37 [router.go:845] [D] | GET        | /api/blog/cache/index                    | 8.0202ms         | match      | /api/blog/cache/index                    | 
+2015/05/20 23:47:18 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:47:21 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 3.0039ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:47:46 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 2.0018ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:47:46 [app.go:103] [I] http server Running on :9900
+2015/05/20 23:48:23 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 9.1353ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:50:30 [router.go:845] [D] | POST       | /api/blog/create/blog                    | 126.0885ms       | match      | /api/blog/create/blog                    | 
+2015/05/20 23:50:35 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 7.0164ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:51:22 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.0074ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:51:43 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.0071ms         | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:52:06 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 8.02ms           | match      | /api/blog/cache/cate                     | 
+2015/05/20 23:52:16 [router.go:845] [D] | GET        | /api/blog/cache/cate                     | 6.0059ms         | match      | /api/blog/cache/cate                     | 
