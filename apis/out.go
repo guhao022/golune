@@ -42,7 +42,7 @@ func (c *OutputCacheHandler) CacheBlogHtml() {
 		//把tmplate解析成string
 		__bloghtml := utils.ParseTmplateToStr("tpl/blog.tpl")
 		//设置文章缓存地址   年+月+blogtag
-		bloghtmlpath := conf.HtmlPath + strconv.Itoa(blog.CreatedYear) + "\\" + strconv.Itoa(blog.CreatedMonth) + "\\"
+		bloghtmlpath := conf.HtmlPath + strconv.Itoa(blog.CreatedYear) + "/" + strconv.Itoa(blog.CreatedMonth) + "/"
 		//创建文件
 		path, err := utils.CreateFile(bloghtmlpath)
 		if err != nil {
@@ -64,6 +64,46 @@ func (c *OutputCacheHandler) CacheBlogHtml() {
 		}
 		c.Data["json"] = map[string]int{"Recode": 200}
 	}
+	c.ServeJson()
+}
+
+func (c *OutputCacheHandler) CacheBlogHtmlById() {
+	mgo, err := models.NewDB()
+	if err != nil {
+		c.Ctx.Redirect(500, fmt.Sprintln(err))
+	}
+	defer mgo.Close()
+	blogid := c.GetString("Id")
+	blog, _ := mgo.FindBlogById(blogid)
+
+	createTime := time.Unix(blog.CreatedAt, 0)
+	createYear := createTime.Year()
+	createMonth := utils.Month2Int(createTime.Month())
+	//createDay := createTime.Day()
+
+	__bloghtml := utils.ParseTmplateToStr("tpl/blog.tpl")
+	//设置文章缓存地址   年+月+blogtag
+	bloghtmlpath := conf.HtmlPath + strconv.Itoa(createYear) + "/" + strconv.Itoa(createMonth) + "/"
+	//创建文件
+	path, err := utils.CreateFile(bloghtmlpath)
+	if err != nil {
+		c.CustomAbort(403, fmt.Sprintln(err))
+	}
+
+	htmlname := path + blog.Htmltag      //blog页面保存的路径
+	htmlfile, err := os.Create(htmlname) //创建页面
+	if err != nil {
+		c.CustomAbort(403, fmt.Sprintln(err))
+	}
+	defer htmlfile.Close()
+	t := template.New("bloghtml" + string(utils.RandomCreateBytes(5)))
+	t.Funcs(template.FuncMap{"unescaped": Unescaped, "id2str": utils.Id2Str, "unix2str": utils.Unix2Str, "replacecate": utils.ReplaceCate, "markdownCommon": utils.MarkdownCommon, "cateIcon": cateIcon})
+	t.Parse(__bloghtml)
+	err = t.Execute(htmlfile, blog)
+	if err != nil {
+		c.CustomAbort(403, fmt.Sprintln(err))
+	}
+	c.Data["json"] = map[string]int{"Recode": 200}
 	c.ServeJson()
 }
 

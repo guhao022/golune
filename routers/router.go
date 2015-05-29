@@ -20,6 +20,7 @@ func init() {
 				),
 				beego.NSNamespace("/cache",
 					beego.NSRouter("/blog", &apis.OutputCacheHandler{}, "get:CacheBlogHtml"),
+					beego.NSRouter("/blogbyid", &apis.OutputCacheHandler{}, "get:CacheBlogHtmlById"),
 					beego.NSRouter("/index", &apis.OutputCacheHandler{}, "get:CacheIndexHtml"),
 					beego.NSRouter("/cate", &apis.OutputCacheHandler{}, "get:CacheCateHtml"),
 					beego.NSRouter("/tags", &apis.OutputCacheHandler{}, "get:CacheTagsHtml"),

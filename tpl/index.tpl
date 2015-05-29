@@ -42,13 +42,13 @@
 <div id="content" class="inner">
     <div id="main-col" class="alignleft">
         <div id="wrapper">
-            <div class="text-editor-wrap">
+            {*<div class="text-editor-wrap">
                 <div class="title-bar"><span class="title">bash</span></div>
                 <div class="text-body">
                     $ <span id="typed"></span>
                 </div>
             </div>
-            <br>
+            <br>*}
             {{range .blog}}
             <article class="post">
                 <div class="post-content">

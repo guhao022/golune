@@ -529,3 +529,12 @@
 2015/05/22 10:39:05 [app.go:103] [I] http server Running on :9900
 2015/05/22 11:00:51 [app.go:103] [I] http server Running on :9900
 2015/05/22 11:01:14 [app.go:103] [I] http server Running on :9900
+2015/05/28 22:00:37 [app.go:103] [I] http server Running on :9900
+2015/05/28 22:00:43 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 345.3856ms       | match      | /api/blog/read/blog                      | 
+2015/05/28 22:16:02 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 1.9903ms         | match      | /api/blog/read/blog                      | 
+2015/05/28 22:17:17 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 986.8µs          | match      | /api/blog/read/blog                      | 
+2015/05/28 22:18:04 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 1.9523ms         | match      | /api/blog/read/blog                      | 
+2015/05/28 22:18:12 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 2.9629ms         | match      | /api/blog/read/blog                      | 
+2015/05/28 22:18:44 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 2.9854ms         | match      | /api/blog/read/blog                      | 
+2015/05/28 22:20:07 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 1.9822ms         | match      | /api/blog/read/blog                      | 
+2015/05/28 22:20:37 [router.go:845] [D] | GET        | /api/blog/read/blog                      | 1.9518ms         | match      | /api/blog/read/blog                      | 

@@ -52,10 +52,10 @@ func (mgo *Mgo) FindBlogTagByTags(tagId bson.ObjectId) (m []BlogTag, err error) 
 }
 
 //根据ID查找blog
-func (mgo *Mgo) FindBlogById(id string) (m []Blog, err error) {
+func (mgo *Mgo) FindBlogById(id string) (m Blog, err error) {
 	c := mgo.session.DB(BlogDB).C(BlogC)
 	query := c.FindId(bson.M{"_id": id})
-	err = query.All(&m)
+	err = query.One(&m)
 	return
 }
 
