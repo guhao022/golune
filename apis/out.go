@@ -67,6 +67,7 @@ func (c *OutputCacheHandler) CacheBlogHtml() {
 	c.ServeJson()
 }
 
+//根据ID缓存博客
 func (c *OutputCacheHandler) CacheBlogHtmlById() {
 	mgo, err := models.NewDB()
 	if err != nil {

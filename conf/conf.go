@@ -8,4 +8,4 @@ var Cate = map[string]string{
 	"talk":       "杂谈",
 }
 
-var ArchiveStartYear int = 2014
+var ArchiveStartYear int = 20141
